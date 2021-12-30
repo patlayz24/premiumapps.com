@@ -1,0 +1,84 @@
+.game {
+  justify-content: center;
+}
+
+*,
+::after,
+::before {
+  box-sizing: border-box;
+}
+
+.box-game {
+  margin: 4px;
+  width: 160px;
+}
+
+@media (min-width: 1200px) {
+  .box-game {
+    width: 300px;
+    margin: 2px;
+  }
+}
+@media (min-width: 992px) {
+  .box-game {
+    width: 220px;
+    margin: 2px;
+  }
+}
+@media (min-width: 768px) {
+  .box-game {
+    width: 220px;
+    margin: 2px;
+  }
+}
+
+.card {
+  position: relative;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  min-width: 0;
+  word-wrap: break-word;
+  background-color: #fff;
+  background-clip: border-box;
+  border: 1px solid rgba(0, 0, 0, 0.125);
+  border-radius: 0.25rem;
+}
+
+.card-info-1 {
+  overflow: hidden;
+  position: relative;
+  word-break: break-all;
+  height: 1.5em;
+  margin: 5px;
+  font-size: 13px;
+  font-weight: 600;
+  color: #d10202;
+}
+
+.img-carousel {
+  height: 600px;
+}
+
+@media (max-width: 800px) {
+  .img-carousel {
+    height: auto;
+  }
+}
+
+.carousel-inner {
+  border-radius: 15px;
+}
+
+section {
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+
+@media (min-width: 900px) {
+  section {
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+}
